@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Raw data - download from Kaggle, do not commit
+data/

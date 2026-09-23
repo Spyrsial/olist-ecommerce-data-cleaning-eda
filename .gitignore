@@ -5,3 +5,4 @@ __pycache__/
 
 # Raw data - download from Kaggle, do not commit
 data/
+data_clean/

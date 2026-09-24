@@ -20,7 +20,7 @@ Most of what looks wrong is recorded rather than corrected. A value is changed o
 1. Download the dataset from Kaggle and put the CSV files in `data/`.
 2. Install the dependencies in a virtual environment.
    ```
-   pip install pandas numpy matplotlib pyarrow
+   pip install pandas numpy matplotlib seaborn pyarrow
    ```
 3. Run `01_data_cleaning.ipynb` top to bottom. It writes the cleaned tables as parquet to `data_clean/`.
 
@@ -28,6 +28,12 @@ Built with Python 3.14 and pandas 3. `data/` and `data_clean/` are not tracked b
 
 ## Repository layout
 
+```
+01_data_cleaning.ipynb   cleaning notebook
+02_eda.ipynb             EDA notebook
+data/                    raw Olist CSVs (not tracked)
+data_clean/              cleaned tables as parquet (not tracked, rebuilt by the notebook)
+```
 ```
 01_data_cleaning.ipynb   cleaning notebook
 02_eda.ipynb             EDA notebook
